@@ -1,28 +1,20 @@
 # simple_keyboard_layout_guide
 
-[![CI Status](https://img.shields.io/travis/iawaknahc/simple_keyboard_layout_guide.svg?style=flat)](https://travis-ci.org/iawaknahc/simple_keyboard_layout_guide)
-[![Version](https://img.shields.io/cocoapods/v/simple_keyboard_layout_guide.svg?style=flat)](https://cocoapods.org/pods/simple_keyboard_layout_guide)
-[![License](https://img.shields.io/cocoapods/l/simple_keyboard_layout_guide.svg?style=flat)](https://cocoapods.org/pods/simple_keyboard_layout_guide)
-[![Platform](https://img.shields.io/cocoapods/p/simple_keyboard_layout_guide.svg?style=flat)](https://cocoapods.org/pods/simple_keyboard_layout_guide)
+## What is this
+
+This pod provides a `KeyboardLayoutGuide` which behaves like `bottomLayoutGuide`.
+When the keyboard is fully invisible, `KeyboardLayoutGuide.topAnchor == bottomLayoutGuide.topAnchor`
+Otherwise, `KeyboardLayoutGuide.toAnchor` tracks the top edge of the keyboard.
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
-simple_keyboard_layout_guide is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
 ```ruby
-pod 'simple_keyboard_layout_guide'
+pod 'simple_keyboard_layout_guide', :git => 'https://github.com/louischan-oursky/simple_keyboard_layout_guide.git', :commit => '<commit-hash>'
 ```
-
-## Author
-
-iawaknahc, louischan@oursky.com
 
 ## License
 
