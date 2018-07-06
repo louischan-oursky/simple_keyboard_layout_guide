@@ -1,0 +1,16 @@
+PODS:
+  - simple_keyboard_layout_guide (0.1.0)
+
+DEPENDENCIES:
+  - simple_keyboard_layout_guide (from `../`)
+
+EXTERNAL SOURCES:
+  simple_keyboard_layout_guide:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  simple_keyboard_layout_guide: 3076dea2be29cb814472313218a0f27e321f446b
+
+PODFILE CHECKSUM: 11e2736e023838714a9dded9ff57abcd982d44e2
+
+COCOAPODS: 1.5.2
